@@ -18,9 +18,9 @@ export PROJ_NAME=kubernetes-the-hard-way
 
 cd scripts
 
-# ./01-resources.sh
-# ./02-certs.sh
-# ./03-kubeconfig.sh
+./01-resources.sh
+./02-certs.sh
+./03-kubeconfig.sh
 ./04-bootstrap-etcd.sh
 ./05-control-plane.sh
 ./06-rbac.sh
